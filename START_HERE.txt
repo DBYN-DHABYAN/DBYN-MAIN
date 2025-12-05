@@ -1,0 +1,72 @@
+╔════════════════════════════════════════════════════════════════╗
+║                                                                ║
+║           DHABYAN COMMERCIAL BROKERS WEBSITE                   ║
+║           Complete Deployment Package                          ║
+║                                                                ║
+╚════════════════════════════════════════════════════════════════╝
+
+📦 WHAT'S INCLUDED:
+
+✅ Complete React + TypeScript website
+✅ All 6 pages (Home, About, Project 33, Project 22, Our Model, Contact)
+✅ DepositFundsComponent for Project 22
+✅ GitHub Actions deployment workflow
+✅ Production-ready code
+
+📖 START HERE:
+
+1. Read: MANUAL_UPLOAD_GUIDE.md
+   → Complete step-by-step instructions for uploading to GitHub
+
+2. Choose your method:
+   - GitHub Web Interface (easiest)
+   - GitHub Desktop (recommended)
+   - Command Line (for developers)
+
+3. Follow the guide exactly as written
+
+⚠️ IMPORTANT BEFORE GOING LIVE:
+
+1. Update wallet addresses in:
+   src/components/DepositFundsComponent.tsx
+
+2. Verify bank details are correct
+
+3. Set up contact form backend
+
+4. Test thoroughly before announcing
+
+🚀 DEPLOYMENT STEPS:
+
+1. Upload these files to: https://github.com/DBYN-DHABYAN/DBYN-MAIN
+2. Enable GitHub Pages (Settings → Pages → Source: GitHub Actions)
+3. Wait 2-3 minutes for deployment
+4. Visit: https://dbyn-dhabyan.github.io/DBYN-MAIN/
+
+📂 FILE STRUCTURE:
+
+src/
+├── pages/          (All 6 website pages)
+├── components/     (DepositFundsComponent)
+├── App.tsx         (Routing)
+├── main.tsx        (Entry point)
+└── index.css       (Styles)
+
+Configuration files (root):
+- package.json
+- vite.config.ts
+- tailwind.config.js
+- tsconfig.json
+- index.html
+
+📞 NEED HELP?
+
+Email: management@dhabyan.ae
+Documentation: README.md
+
+═══════════════════════════════════════════════════════════════
+
+Built with precision for Dhabyan Commercial Brokers L.L.C
+Infrastructure-First. Compute-First. Numbers-First.
+
+═══════════════════════════════════════════════════════════════
