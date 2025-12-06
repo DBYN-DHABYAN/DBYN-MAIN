@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, DollarSign, AlertCircle, CheckCircle, XCircle } from 'lucide-react';
+import { CheckCircle, XCircle } from 'lucide-react';
 
 const NavLink = ({ href, children }: { href: string; children: React.ReactNode }) => (
   <a href={href} className="text-gray-300 hover:text-white transition-colors duration-200">{children}</a>
