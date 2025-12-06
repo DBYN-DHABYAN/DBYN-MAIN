@@ -1,0 +1,32 @@
+name: DBYN Deployment Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Next.js
+        run: npm run build
+
+      - name: Prepare release
+        run: |
+          mkdir dbyn-release
+          cp -r .next dbyn-release/
+          cp -r public dbyn-release/
+          cp package.json dbyn-release/
+          cp next.config.js dbyn-release/
+          tar -czvf dbyn-release.tar.gz dbyn-release
+
+      - name: Completed
+        run: echo "DBYN build complete."
+
