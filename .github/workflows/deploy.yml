@@ -1,6 +1,4 @@
 name: DBYN Deployment Pipeline
-permissions:
-  contents: read
 
 on:
   push:
